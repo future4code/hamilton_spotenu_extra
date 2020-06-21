@@ -27,14 +27,13 @@ export const GlobalStyle = createGlobalStyle`
     font-size: 14px;
   } 
 
-
-
   button {
     cursor: pointer;
   }
 
   body {
     background: ${theme.lightGray};
-  }
+    font-family: 'Roboto', sans-serif;
+  };
 
 `;
